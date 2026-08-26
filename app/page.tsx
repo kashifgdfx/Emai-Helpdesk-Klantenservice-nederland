@@ -70,9 +70,12 @@ export default function Page() {
             <a href="#faq" className="transition-colors hover:text-blue-600">Veelgestelde vragen</a>
           </nav>
 
+          {/* 1st Place: Top Header Button */}
           <div className="hidden items-center gap-3 md:flex">
             <a
-              href="tel:+31202254839"
+              href="https://helpdeskbellennummer.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-blue-600/20 transition-all hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5"
             >
               <Phone size={15} />
@@ -87,7 +90,7 @@ export default function Page() {
 
         {menuOpen && (
           <nav className="flex flex-col gap-3 border-t border-slate-200 bg-white px-5 py-6 text-sm font-semibold text-slate-700 md:hidden shadow-lg animate-in slide-in-from-top duration-200">
-            <a href="tel:+31202254839" onClick={() => setMenuOpen(false)} className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-3 text-white shadow-md">
+            <a href="https://helpdeskbellennummer.com/" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-3 text-white shadow-md">
               <Phone size={16} /> +31-20-225-4839
             </a>
             <a href="#oplossingen" onClick={() => setMenuOpen(false)} className="rounded-lg px-3 py-2 hover:bg-slate-50">Oplossingen</a>
@@ -115,7 +118,8 @@ export default function Page() {
               <a href="#oplossingen" className="inline-flex items-center gap-2.5 rounded-2xl bg-blue-600 px-7 py-4 text-sm font-bold text-white shadow-xl shadow-blue-600/30 transition-all hover:bg-blue-500 hover:shadow-2xl hover:-translate-y-0.5">
                 Bekijk oplossingen <ArrowRight className="size-4" />
               </a>
-              <a href="tel:+31202254839" className="inline-flex items-center gap-2.5 rounded-2xl border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-white/20 hover:-translate-y-0.5">
+              {/* 2nd Place: Hero Section CTA Button */}
+              <a href="https://helpdeskbellennummer.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 rounded-2xl border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-white/20 hover:-translate-y-0.5">
                 <Phone className="size-4 text-blue-400" /> +31-20-225-4839
               </a>
             </div>
@@ -166,7 +170,10 @@ export default function Page() {
           <Section id="inloggen" title="Kan niet inloggen op mijn e-mail">
             <p>Een van de meest voorkomende problemen is dat gebruikers niet kunnen inloggen. Controleer eerst of u het juiste e-mailadres invoert. Let ook goed op hoofdletters, cijfers en speciale tekens in uw wachtwoord.</p>
             <p>Wanneer u uw wachtwoord bent vergeten, gebruik dan alleen de officiële optie voor wachtwoordherstel van uw e-mailprovider. Deel uw wachtwoord of verificatiecodes nooit met onbekende personen.</p>
-            <p>Als het probleem blijft bestaan, kunt u contact opnemen met de officiële Klantenservice of Helpdesk van uw e-mailprovider voor veilige Hulp en Ondersteuning.</p>
+            {/* 3rd Place: Login Section Highlighted Link */}
+            <p>
+              Als het probleem blijft bestaan, kunt u contact opnemen met de officiële Klantenservice of Helpdesk van uw e-mailprovider voor veilige Hulp en <a href="https://helpdeskbellennummer.com/" target="_blank" rel="noopener noreferrer" className="font-bold text-blue-600 underline">Ondersteuning</a>.
+            </p>
           </Section>
 
           <Section id="ontvangen" title="E-mails komen niet binnen">
@@ -305,7 +312,10 @@ export default function Page() {
 
           <Section id="conclusie" title="Conclusie">
             <p>Wanneer uw e-mail niet werkt, hoeft het probleem niet altijd ernstig te zijn. In veel gevallen kan een controle van uw internetverbinding, wachtwoord, browser, app of opslagruimte het probleem oplossen.</p>
-            <p>Heeft u nog steeds problemen met inloggen, e-mails ontvangen of berichten versturen? Zoek dan naar de officiële Helpdesk, Klantenservice, Telefoonnummer, Hulp en Ondersteuning in Nederland van uw specifieke e-mailprovider.</p>
+            {/* Conclusion Section Link */}
+            <p>
+              Heeft u nog steeds problemen met inloggen, e-mails ontvangen of berichten versturen? <a href="https://helpdeskbellennummer.com/" target="_blank" rel="noopener noreferrer" className="font-bold text-blue-600 underline">Neem direct contact op via onze hulppagina</a> of zoek naar de officiële Helpdesk, Klantenservice en Ondersteuning in Nederland van uw specifieke e-mailprovider.
+            </p>
             <p>Gebruik altijd officiële contactkanalen en bescherm uw wachtwoord, verificatiecodes en persoonlijke gegevens. Zo kunt u uw e-mailprobleem zo veilig mogelijk oplossen.</p>
           </Section>
         </article>
