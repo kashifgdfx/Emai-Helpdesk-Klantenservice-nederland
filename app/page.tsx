@@ -90,7 +90,7 @@ export default function Page() {
 
         {menuOpen && (
           <nav className="flex flex-col gap-3 border-t border-slate-200 bg-white px-5 py-6 text-sm font-semibold text-slate-700 md:hidden shadow-lg animate-in slide-in-from-top duration-200">
-            <a href="https://helpdeskbellennummer.com/" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-3 text-white shadow-md">
+            <a href="https://support.google.com/mail/?hl=nl" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-3 text-white shadow-md">
               <Phone size={16} /> +31-20-225-4839
             </a>
             <a href="#oplossingen" onClick={() => setMenuOpen(false)} className="rounded-lg px-3 py-2 hover:bg-slate-50">Oplossingen</a>
@@ -119,7 +119,7 @@ export default function Page() {
                 Bekijk oplossingen <ArrowRight className="size-4" />
               </a>
               {/* 2nd Place: Hero Section CTA Button */}
-              <a href="https://helpdeskbellennummer.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 rounded-2xl border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-white/20 hover:-translate-y-0.5">
+              <a href="https://support.google.com/mail/?hl=nl" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 rounded-2xl border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-white/20 hover:-translate-y-0.5">
                 <Phone className="size-4 text-blue-400" /> +31-20-225-4839
               </a>
             </div>
