@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono'
 export const metadata: Metadata = {
   title: 'E-mail Werkt Niet? Hulp & Ondersteuning Nederland',
   description: 'Werkt uw e-mail niet? Lees oplossingen voor e-mailproblemen, inloggen, wachtwoorden en berichten ontvangen met handige hulp en ondersteuning in Nederland.',
-  generator: 'v0.app',
+ 
 }
 
 export const viewport: Viewport = {
